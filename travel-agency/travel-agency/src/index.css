@@ -1,0 +1,1281 @@
+/* Start Navbar */
+.Home_section {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.738);
+    height: 70px;
+    margin-top: -20px;
+}
+
+nav img {
+    width: 70px;
+    margin-left: 100px;
+}
+
+.links {
+    margin-right: 100px;
+}
+
+.nav_link {
+    margin: 0 10px 0 10px;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+
+}
+
+
+.nav_link:hover {
+    color: orange;
+
+}
+
+
+
+/* Start Home */
+
+
+/* Start Header Section */
+
+.home_header {
+    background-image: url("./assets/camping.jpg");
+    color: white;
+    height: 1000px;
+
+}
+
+
+.header_div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+
+.header_img {
+    width: 100px;
+}
+
+.home_header :nth-child(3) {
+    font-size: 85px;
+}
+
+
+.home_header :nth-child(4) {
+    font-size: 26px;
+
+}
+
+.header_link {
+    text-decoration: none;
+    color: white;
+    border: solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    width: 200px;
+    border-radius: 20px;
+    height: 40px;
+    transition: 0.3s;
+
+}
+
+.header_link:hover {
+    background-color: white;
+    color: black;
+}
+
+/* End Header Section */
+
+
+
+
+/* Start Second Section */
+.home_s2 {
+    background-color: black;
+    color: white;
+}
+
+.home_s2_1 {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.s2_divs {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.738);
+    border: solid orange;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: -50px;
+}
+
+
+.s2_divs i {
+    font-size: 30px;
+}
+
+.s2_divs p {
+    font-size: 18px;
+}
+
+
+
+
+
+
+.home_s2_2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.home_s2_2 :nth-child(1) {
+    line-height: 200px;
+}
+
+
+.home_s2_2 h1 {
+    font-size: 60px;
+    color: orange;
+}
+
+
+
+.home_s2_2 P {
+    font-size: 25PX;
+    max-width: 420PX;
+    line-height: 30PX;
+}
+
+.emptu_div1 {
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 170px;
+}
+
+.emptu_div1 div {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    justify-content: center;
+    background-color: black;
+
+
+
+}
+
+
+
+.empty_div2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 470px;
+    right: 100px;
+}
+
+
+
+.empty_div2 div {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.home_s2_2 img {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 100px;
+}
+
+
+
+.home_s2_3 {
+    background-color: black;
+}
+
+
+
+.tree_img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-left: 100px;
+
+}
+
+
+
+.empty_div3 {
+    width: 180px;
+    height: 180px;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.empty_div3 div {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: black;
+
+}
+
+.home_s2_3 {
+    display: flex;
+    justify-content: center;
+}
+
+.mounten1 {
+    width: 550px;
+    height: 550px;
+    border: solid white 7px;
+    border-radius: 50%;
+    margin-left: 300px;
+
+}
+
+.mounten2 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-top: -240px;
+    margin-left: 30px;
+    border: solid orange 15px;
+}
+
+.empty_div4 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 300px;
+    margin-left: 65%;
+}
+
+.empty_div4 div {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: rgb(0 0 0 / 50);
+}
+
+
+
+
+/* End Second Section */
+
+
+
+
+/* Start Backpacking Trips */
+.Backpacking_Trips_Section {
+    text-align: center;
+}
+
+.Backpacking_Trips_Section h1 {
+    font-size: 60px;
+}
+
+.Backpacking_Trips_Section {
+    font-size: 18px;
+}
+
+.Backpacking_Trips_Section a {
+    text-decoration: none;
+    color: white;
+    padding: 0 20px 0 20px;
+    border: solid white;
+    font-size: 30px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.Backpacking_Trips_Section a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* End Backpacking Trips */
+
+
+
+
+
+/* Start Small group travel that's good all over Section */
+.startGroup_section {
+    height: 700px;
+}
+
+
+.startGroup_section h1 {
+    font-size: 40px;
+    width: 450px;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.startGroup_section div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.smallGroup_card {
+    border: solid white;
+    background-color: white;
+    color: black;
+    line-height: 30px;
+    font-size: 18px;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.smallGroup_card a {
+    text-decoration: none;
+    text-align: center;
+    color: orange;
+    border: solid orange;
+    width: 140px;
+
+    border-radius: 20px;
+    transition: 0.5s;
+
+}
+
+
+.smallGroup_card a:hover {
+    background-color: orange;
+    color: white;
+}
+
+.startGroup_img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+/* End Small group travel that's good all over Section */
+
+
+
+
+
+
+
+/* Start Enjoy the perfect blend of adventure tours Section  */
+
+.EnjoyPerfect_Section {
+    text-align: center;
+}
+
+.EnjoyPerfect_SectionCard {
+    width: 320px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+
+
+
+
+.EnjoyPerfect_SectionCards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.EnjoyPerfect_SectionCard p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.EnjoyPerfect_SectionCard img {
+    width: 130px;
+    height: 130px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+
+.EnjoyPerfect_SectionCard a {
+    color: black;
+    font-size: 18px;
+}
+
+
+
+
+
+.wm_img {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+}
+
+
+
+.Enjoy_emptyDiv {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: orange;
+    position: relative;
+    left: 33%;
+    bottom: 115px;
+
+}
+
+
+.EnjoyPerfect_Section_s2_card {
+    width: 350px;
+    height: 330px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    position: relative;
+    left: 55%;
+    bottom: 270px;
+}
+
+.EnjoyPerfect_Section_s2 {
+    margin-top: 100px;
+}
+
+.EnjoyPerfect_Section_s2_card h1 {
+    font-size: 40px;
+}
+
+
+.EnjoyPerfect_Section_s2_card p {
+    font-size: 23px;
+    margin-top: 30px;
+}
+
+
+
+.EnjoyPerfect_Section_s2_card a {
+    text-decoration: none;
+    color: white;
+    border: solid orange;
+    background-color: orange;
+    padding: 7px 13px 7px 13px;
+    border-radius: 20px;
+
+
+
+}
+
+
+.EnjoyPerfect_Section_s2_card a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+.EnjoyPerfect_Section_s3Card {
+    width: 400px;
+}
+
+.EnjoyPerfect_Section_s3Card i {
+    font-size: 27px;
+
+}
+
+
+.EnjoyPerfect_Section_s3Card p {
+    max-width: 550px;
+    font-size: 18px;
+}
+
+
+.EnjoyPerfect_Section_s3Card1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.EnjoyPerfect_Section_s4 {
+
+    background-image: url("./assets/img20.jpg");
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.EnjoyPerfect_Section_s4 div {
+    width: 400px;
+    margin-left: 80px;
+
+}
+
+.EnjoyPerfect_Section_s4 h1 {
+    font-size: 55px;
+    max-width: 370px;
+}
+
+.EnjoyPerfect_Section_s4 p {
+    font-size: 23px;
+    width: 380px;
+
+}
+
+
+.EnjoyPerfect_Section_s4 i {
+    font-size: 20px;
+    margin: 15px;
+}
+
+/* End Enjoy the perfect blend of adventure tours Section  */
+
+
+
+
+/* Start Get in touch Section */
+
+
+.getToutch_Section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.getToutch_Section h1 {
+    font-size: 50px;
+}
+
+.getToutch_Section form input {
+
+    border: none;
+    border-bottom: 2px solid white;
+    width: 180px;
+    height: 20px;
+    margin: 5px;
+    background-color: black;
+
+
+}
+
+.getToutch_Section form textarea {
+    display: block;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: black;
+    margin-top: 20px;
+}
+
+
+.getToutch_Section form button {
+    width: 390px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+    transition: 0.3s;
+}
+
+
+.getToutch_Section form button:hover {
+    background-color: gray;
+    color: white;
+}
+
+
+
+
+/* Start Footer */
+
+
+footer {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+footer p {
+    font-size: 17px;
+    width: 380px;
+    line-height: 27px;
+
+}
+
+
+/* End Home */
+
+
+
+/* Start About */
+.About {
+    background-color: black;
+    color: white;
+}
+
+
+.About_header {
+    background-image: url("./assets/About_bg.jpg");
+    color: white;
+    height: 1000px;
+    text-align: center;
+}
+
+
+
+.section2_cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -130px;
+}
+
+.section2_card {
+    width: 280px;
+    height: 300px;
+    border: solid whitesmoke;
+    border-radius: 25px;
+    text-align: center;
+
+}
+
+
+.section2_card div {
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    height: 80px;
+
+}
+
+.section2_card i {
+    font-size: 30px;
+
+}
+
+.section2_card p {
+    max-width: 200px;
+    font-size: 19px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.section2_card h1 {
+    margin-top: -1px;
+}
+
+.section2_card a {
+
+    text-decoration: none;
+    border-bottom: 2px red solid;
+
+}
+
+
+
+.second_section_s2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+
+}
+
+.snow_img {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+}
+
+.section_s2Cards {
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+}
+
+
+.section_s2Cards p {
+    font-size: 23px;
+    margin-left: 20px;
+}
+
+.section_s2Cards a {
+    font-size: 25px;
+    color: white;
+    background-color: red;
+    padding: 3px 13px 2px 13px;
+    text-decoration: none;
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+
+
+}
+
+.About_emptyDiv1 {
+    background-color: gray;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.About_emptyDiv1 div {
+    width: 380px;
+    height: 380px;
+    background-color: rgb(0 0 0 /50);
+    border-radius: 50%;
+}
+
+
+.About_emptyDiv2 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: orange;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+
+
+
+/* End Second Section  */
+
+
+
+/* Start Outdoor Recreation Section */
+
+
+.outdoor_sectionDiv1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.outdoor_section {
+    text-align: center;
+    height: 1300px;
+}
+
+.outdoor_section h1 {
+    font-size: 50px;
+}
+
+.outdoor_section p {
+    font-size: 20px;
+    width: 400px;
+    line-height: 25px;
+
+}
+
+
+.outdoor_imgs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.outdoor_imgs img {
+    width: 350px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+.outdoor_section a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 6px 18px 6px 18px;
+    border-radius: 15px;
+    position: relative;
+    top: 50px;
+
+}
+
+/* End Outdoor Recreation Section */
+
+
+
+
+/* End About */
+
+
+
+
+
+/* Start Loading */
+
+
+.loading {
+    background-color: black;
+    color: white;
+}
+
+/* Start Header */
+.loading_header {
+    background-image: url("./assets/loading_bg.jpg");
+    color: white;
+    height: 1000px;
+    background-size: cover;
+
+}
+
+.loading_header div {
+    padding-top: 50px;
+    padding-left: 100px;
+
+}
+
+
+
+.loading_h1 {
+    font-size: 60px;
+    width: 400px;
+    line-height: 75px;
+}
+
+
+
+.loading_header a {
+    width: 300px;
+    height: 60px;
+    margin-top: 70px;
+}
+
+
+/* End Header */
+
+/*    Start Vacation Adventures Take Many Forms  */
+
+
+.startVacation_section h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.startVacation_card hr {
+    width: 300px;
+}
+
+.startVacation_card {
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.startVacation_card p {
+    font-size: 19px;
+    width: 210px;
+    font-style: italic;
+
+
+}
+
+.vacation_imgs {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: solid orange 5px;
+}
+
+.startVacation_cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.startVacation_section_s2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loading1_img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+
+
+.startVacation_emptyDiv1 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    bottom: 100px;
+}
+
+
+
+.startVacation_emptyDiv {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+    position: relative;
+    top: 100px;
+
+}
+
+.startVacation_emptyDiv div {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0 0 0 /50);
+    border-radius: 50%;
+
+}
+
+.startVacation_s2_card {
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 350px;
+    bottom: 350px;
+    border-radius: 20px;
+}
+
+
+
+.startVacation_s2_card h1 {
+    font-size: 45px;
+}
+
+
+
+.startVacation_s2_card p {
+    font-size: 20px;
+}
+
+
+.startVacation_s2_card a {
+    font-size: 20px;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    width: 200px;
+    padding-top: 7px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.startVacation_section_s3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.startVacation_section_s3 h1 {
+
+    font-size: 60px;
+
+}
+
+.startVacation_section_s3 span {
+    color: red;
+}
+
+.startVacation_section_s3 p {
+    font-size: 18px;
+    width: 570px;
+    line-height: 30px;
+
+}
+
+
+.startVacation_section_s3 a {
+    text-decoration: none;
+    border: solid red;
+    color: red;
+    padding: 3px 15px;
+    border-radius: 20px;
+
+}
+
+.startVacation_section_s3 a:hover {
+
+
+    background-color: red;
+    color: white;
+}
+
+
+.startVacation_section_s3 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+
+.startVacation_sectionEmptyDiv {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+    right: 20px;
+}
+
+.startVacation_section_s4_1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.startVacation_section_s4 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+
+.startVacation_section_s4 h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.startVacation_section_s4 p {
+    font-size: 18px;
+    width: 250px;
+    line-height: 30px;
+}
+
+
+.startVacationSection_s4EmptyDiv {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.startVacation_section_s4Flex {
+    display: flex;
+    justify-content: center;
+}
+
+.startVacation_section_s4Flex :nth-child(2) {
+    width: 250px;
+    height: 270px;
+    border-radius: 20px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+
+
+/* End Vacation Adventures Take Many Forms */
+
+
+
+
+/* End Loading */
+
+
+
+
+
+
+/* Start Contact */
+
+/* Start Header */
+.Contact {
+    background-color: black;
+    color: white;
+}
+
+.contact_header {
+    background-image: url("./assets/contact_bg.jpg");
+    color: white;
+    height: 1000px;
+
+}
+
+.contact_h1 {
+    font-size: 50px;
+    width: 500px;
+
+}
+/* End Header */
+
+
+
+
+
+/* Start Second Section */
+
+.contact_section2{
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-top: 100px;
+}
+
+
+
+
+.contact_emptyDiv1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_emptyDiv1 div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(0 0 0 / 50);
+}
+
+.contact_section2 img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-left: 120px;
+    margin-top: -50px;
+
+}
+
+.contact_emptyDiv2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    bottom: 100px;
+    left: 70px;
+}
+
+.contactSection2_card {
+    width: 400px;
+    height: 450px;
+    margin-top: 150px;
+    border-radius: 20px;
+
+    background-color: white;
+    color: black;
+    text-align: center;
+
+
+
+}
+
+
+
+.contactSection2_card p {
+    font-size: 18px;
+}
+
+.contactSection2_card div {
+    width: 300px;
+    height: 3px;
+    background-color: red;
+    margin-left: 60px;
+}
+
+.contactSection2_card h1 {
+    font-size: 45px;
+    color: cadetblue;
+}
+
+
+.contactSection2_card h2 {
+    font-size: 30px;
+}
+
+.contactSection2_card a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* End Second Section */
+
