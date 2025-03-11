@@ -18,8 +18,12 @@ nav img {
     margin-left: 100px;
 }
 
-.links {
-    margin-right: 100px;
+ul{
+    display:flex;
+}
+
+ul li {
+    list-style:none;
 }
 
 .nav_link {
