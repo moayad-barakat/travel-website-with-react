@@ -11,12 +11,12 @@ const Navbar= ()=>{
             </div>
 
 
-            <div className="links">
-                <Link className="nav_link" to="/home">HOME</Link>
-                <Link className="nav_link" to="/about">ABOUT US</Link>
-                <Link className="nav_link" to="/loading">LOADING</Link>
-                <Link className="nav_link" to="/contact">CONTACT US</Link>
-            </div>
+            <ul className="links">
+               <li> <Link className="nav_link" to="/home">HOME</Link></li>
+               <li> <Link className="nav_link" to="/about">ABOUT US</Link></li>
+               <li> <Link className="nav_link" to="/loading">LOADING</Link></li>
+               <li> <Link className="nav_link" to="/contact">CONTACT US</Link></li>
+            </ul>
         </nav>
     )
 }
